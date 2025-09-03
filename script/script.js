@@ -68,3 +68,10 @@ for (const callBtn of callBtns) {
     }
   });
 }
+// history clear
+const clearHistory = document
+  .getElementById("clear-history-btn")
+  .addEventListener("click", function () {
+    // console.log("clicked");
+    historyList.innerHTML = "";
+  });
