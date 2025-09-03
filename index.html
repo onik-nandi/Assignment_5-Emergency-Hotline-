@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- css file -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- tailwindcss -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- daisy ui -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <!-- nav area starts -->
+    <nav>
+      <section class="nav-area">
+        <div
+          class="nav-area md:flex md:flex-row flex flex-col justify-between items-center mt-[20px] bg-white p-[10px] rounded-[10px] md:px-[110px]"
+        >
+          <div class="logo-div flex items-center gap-[10px]">
+            <a href="#"
+              ><img src="./images/logo.png" alt="logo" class="w-[50px]"
+            /></a>
+            <h1
+              class="text-[#006747] font-extrabold hind-font text-[22px] leading-[24px]"
+            >
+              Emergency <br />
+              Service
+            </h1>
+          </div>
+          <div
+            class="nav-links flex justify-between gap-[5px] mt-[20px] md:mt-[0px] md:gap-[20px] items-center inter-font"
+          >
+            <div
+              class="fav-section bg-[#41ff6b1a] flex justify-between items-center p-[10px] pr-[25px] rounded-[50px] md:flex"
+            >
+              <p class="pl-[25px] text-[16px] font-extrabold" id="heart-counts">
+                0
+              </p>
+              <img
+                src="./images/heart.png"
+                alt="fav"
+                class="w-[30px] pl-[10px]"
+              />
+            </div>
+            <div
+              class="tokens-section bg-[#41ff6b1a] flex justify-between items-center p-[10px] pr-[25px] rounded-[50px] md:flex"
+            >
+              <p class="pl-[25px] text-[16px] font-extrabold" id="money-token">
+                100
+              </p>
+              <img
+                src="./images/coin.png"
+                alt="coin"
+                class="w-[30px] pl-[10px]"
+              />
+            </div>
+            <div
+              class="copy-section bg-[#00A63E] flex md:flex justify-between items-center p-[10px] pr-[25px] rounded-[50px] mr-[20px]"
+            >
+              <p
+                class="pl-[5px] md:pl-[25px] text-[16px] font-semibold text-[#fff]"
+                id="copy-count"
+              >
+                0
+              </p>
+              <p
+                class="pl-[5px] md:pl-[25px] text-[16px] font-semibold text-[#fff]"
+              >
+                Copy
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </nav>
+    <!-- nav area ends -->
+
+    <!-- java script -->
+    <script src="./script/script.js"></script>
+  </body>
+</html>
