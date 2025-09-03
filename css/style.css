@@ -6,3 +6,25 @@
 .inter-font {
   font-family: "Inter", sans-serif;
 }
+
+/* button style */
+.copy-btn {
+  background: #fff;
+  border: 1px solid #d4d6d5;
+  padding-top: 10.5px;
+  padding-bottom: 10.5px;
+  padding-right: 50px;
+  padding-left: 50px;
+  color: #5c5c5c;
+  margin-right: 0px;
+}
+.call-btn {
+  background: #00a63e;
+  border: 1px solid #00a63e;
+  padding-top: 10.5px;
+  padding-bottom: 10.5px;
+  padding-right: 55px;
+  padding-left: 55px;
+  color: #fff;
+  margin-left: 4px;
+}
